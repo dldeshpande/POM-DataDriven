@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+  <test thread-count="7" name="Test">
+ 
+ <listners>
+  <listner>
+ < class name = "com.ReportListner.Extentreport"/>
+  </listner>
+  </listners>
+ 
+    <classes>
+      <class name="com.crm.qa.testcass.LoginPageTest"/>
+       <class name="com.crm.qa.testcass.HomePageTest"/>
+        <class name="com.crm.qa.testcass.ContactPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

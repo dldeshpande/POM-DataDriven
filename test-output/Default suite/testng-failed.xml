@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)]"> 
+    
+    <listners>
+    <listner> 
+    class name="com.ReportListner.Extentreport.ExtentReportTestNG.java">
+    </listner>
+    </listners>
+    <classes>
+      <class name="com.crm.qa.testclass.ContactPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifycontactLbl1"/>
+          <include name="setUP"/>
+          <include name="verifyContactLbl"/>
+          <include name="selectContacts"/>
+          <include name="getCRMData"/>
+        </methods>
+      </class> <!-- com.crm.qa.testclass.ContactPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
